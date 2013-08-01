@@ -1,4 +1,4 @@
-django basic project
+django basic project with registration, bootstrapped forms and debug toolbar included!
 ====================
 
 a starter project with bootstrapped forms and user registration
