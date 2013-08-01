@@ -1,7 +1,18 @@
 django basic project
 ====================
 
-a starter project with bootstrapped forms, user registration and debug-toolbar included!
+A starter project with bootstrapped forms, user registration and debug-toolbar included! This is not pinax, i don't like pinax because it is too much complicated for newbie django developer like me ... so, i made my own.
+
+The project includes all required templates for:
+
+	- login
+	- registration
+	- password change
+	- password lost
+	- account activation
+	- ecc ...
+
+Unlike pinax this project is based on django 1.5.1	
 
 Example usage
 =============
