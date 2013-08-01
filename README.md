@@ -6,9 +6,10 @@ a starter project with bootstrapped forms and user registration
 Example usage
 =============
 
-    $ virtualenv mysite-env
+    $ virtualenv mysite-env --no-site-packages
     $ source mysite-env/bin/activate
-    (mysite-env)$ git clone django-simple-registration
+    (mysite-env)$ git clone git@github.com:kl4us/django-simple-registration.git
+    (mysite-env)$ cd django-simple-registration
     (mysite-env)$ pip install -r requirements.txt
     (mysite-env)$ python manage.py syncdb
     (mysite-env)$ python manage.py runserver
