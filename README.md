@@ -19,8 +19,9 @@ Example usage
 
     $ virtualenv mysite-env --no-site-packages
     $ source mysite-env/bin/activate
-    (mysite-env)$ git clone git@github.com:kl4us/django-simple-registration.git
-    (mysite-env)$ cd django-simple-registration
+    (mysite-env)$ pip install django==1.5.1
+    (mysite-env)$ django-admin.py startproject --template=https://github.com/kl4us/django-simple-registration/zipball/master mysite
+    (mysite-env)$ cd mysite
     (mysite-env)$ pip install -r requirements.txt
     (mysite-env)$ python manage.py syncdb
     (mysite-env)$ python manage.py runserver
