@@ -8,8 +8,8 @@ from django.views.generic import TemplateView
 
 urlpatterns = patterns('',
     # Examples:
-    # url(r'^$', 'djreg.views.home', name='home'),
-    # url(r'^djreg/', include('djreg.foo.urls')),
+    # url(r'^$', '{{ project_name }}.views.home', name='home'),
+    # url(r'^{{ project_name }}/', include('{{ project_name }}.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
