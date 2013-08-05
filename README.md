@@ -1,8 +1,8 @@
-django bootstrap registration template project
+django bootstrap registration template layout
 ====================
 
 A starter project with bootstrapped forms, user registration and debug-toolbar included! 
-There are other template project like pinax but i don't those because it is too much complicated for newbie django developer like me ... so, i made my own.
+There are other project layout like pinax but i don't like those because it is too much complicated for newbie django developer like me ... so, i made my own.
 
 The project includes all required templates for:
 
