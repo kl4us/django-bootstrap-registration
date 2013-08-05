@@ -1,4 +1,4 @@
-django basic project
+django bootstrap registration starter project
 ====================
 
 A starter project with bootstrapped forms, user registration and debug-toolbar included! This is not pinax, i don't like pinax because it is too much complicated for newbie django developer like me ... so, i made my own.
