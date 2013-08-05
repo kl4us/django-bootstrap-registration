@@ -1,7 +1,8 @@
 django bootstrap registration template project
 ====================
 
-A starter project with bootstrapped forms, user registration and debug-toolbar included! This is not pinax, i don't like pinax because it is too much complicated for newbie django developer like me ... so, i made my own.
+A starter project with bootstrapped forms, user registration and debug-toolbar included! 
+There are other template project like pinax but i don't those because it is too much complicated for newbie django developer like me ... so, i made my own.
 
 The project includes all required templates for:
 
@@ -12,7 +13,7 @@ The project includes all required templates for:
 	- account activation
 	- ecc ...
 
-Unlike pinax this project is based on django 1.5.1	
+Unlike pinax and other projects this project is based on django 1.5.1, django-registration (not django-user-accounts) and django-debug-toolbar.	
 
 Example usage
 =============
